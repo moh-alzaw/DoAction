@@ -29,13 +29,13 @@ Next, you can assign it to a new DoAction constructor and place in parameters.
   - **maximumTimes:** How many times should DoAction allow the code to be executed. (More specifically how many times should the instance allow the Do() function to be called before being locked.)
   - **startLocked:** Should the code be locked by default?
 
-Now you can call the function/code that you have assigned to the DoAction instance by using the Do() function.
-```NewDoActionInstance.Do();```
-And once it has been called the maximum amount of times you have set it to, it will "lock" which prevents any further execution of the function/code provided.
-It is also possible to "unlock" or allow the execution of the function/code after it has been locked. To do so, simply use the Reset() function in the instance of DoAction that you wish to unlock.
-```NewDoActionInstance.Reset(bool onlyIfLocked = false);```
+Now you can call the function/code that you have assigned to the DoAction instance by using the Do() function.  
+```NewDoActionInstance.Do();```  
+And once it has been called the maximum amount of times you have set it to, it will "lock" which prevents any further execution of the function/code provided.  
+It is also possible to "unlock" or allow the execution of the function/code after it has been locked. To do so, simply use the Reset() function in the instance of DoAction that you wish to unlock.  
+```NewDoActionInstance.Reset(bool onlyIfLocked = false);```  
 - Reset() Function Parameters
   - **onlyIfLocked:** It will allow you to reset the corresponding instance of DoAction ONLY IF that instance is locked.
 
-Need to check if the instance is locked or not? No problem! Simply use the GetIsLocked() function which returns a boolean.
-```NewDoActionInstance.GetIsLocked();```
+Need to check if the instance is locked or not? No problem! Simply use the GetIsLocked() function which returns a boolean.  
+```NewDoActionInstance.GetIsLocked();```  
