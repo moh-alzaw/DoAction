@@ -42,10 +42,10 @@ Need to check if the instance is locked or not? No problem! Simply use the GetIs
   
 ### Variables  
 ```
-std::function<void()> Function;  
-int MaximumTimes;  
-bool StartLocked;  
-int NumberOfTimesExecuted;  
+std::function<void()> Function;
+int MaximumTimes;
+bool StartLocked;
+int NumberOfTimesExecuted;
 ```  
 
 - Public Variables
