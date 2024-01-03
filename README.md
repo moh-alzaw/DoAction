@@ -5,7 +5,7 @@ DoAction works by allowing code to be executed a specific amount of times before
 
 ## Setting Up
 ### Step 1:
-Download the files in the respository and add them to your C++ or Unreal Engine project.  
+Download the .cpp and .h files in the respository and add them to your C++ or Unreal Engine project.  
 #### C++:
 Simply add it to your project directory.  
 #### Unreal Engine:
