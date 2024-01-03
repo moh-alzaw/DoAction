@@ -53,5 +53,3 @@ int NumberOfTimesExecuted;
   - **MaximumTimes:** Maximum amount of times that the function/code in the variable _Function_ can be executed before being locked.  
   - **StartLocked:** Should the DoAction instance be locked by default? This also applies for if the instance is reset.  
   - **NumberOfTimesExecuted:** Amount of times the function/code in the variable _Function_ has been executed.  
-
-# Thank You!
