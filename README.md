@@ -46,11 +46,12 @@ std::function<void()> Function;
 int MaximumTimes;  
 bool StartLocked;  
 int NumberOfTimesExecuted;  
-```
+```  
 
-**Function:** The function/code that the DoAction instance will execute (unless locked).  
-**MaximumTimes:** Maximum amount of times that the function/code in the variable _Function_ can be executed before being locked.  
-**StartLocked:** Should the DoAction instance be locked by default? This also applies for if the instance is reset.  
-**NumberOfTimesExecuted:** Amount of times the function/code in the variable _Function_ has been executed.  
+- Public Variables
+  - **Function:** The function/code that the DoAction instance will execute (unless locked).  
+  - **MaximumTimes:** Maximum amount of times that the function/code in the variable _Function_ can be executed before being locked.  
+  - **StartLocked:** Should the DoAction instance be locked by default? This also applies for if the instance is reset.  
+  - **NumberOfTimesExecuted:** Amount of times the function/code in the variable _Function_ has been executed.  
 
 # Thank You!
