@@ -25,7 +25,7 @@ To use DoAction, first begin by creating an instance of the class DoAction.
 Next, you can assign it to a new DoAction constructor and place in parameters.  
 ```NewDoActionInstance = DoAction(std::function<void()> function = [](){}, int maximumTimes = 1, bool startLocked = false);```  
 - Constructor Parameters  
-  - **function:** What function should DoAction execute. You can also directly place your code by using [this](){ // PLACE CODE IN HERE }  
+  - **function:** What function should DoAction execute. You can also directly place your code by using ```[this](){ // PLACE CODE IN HERE }```  
   - **maximumTimes:** How many times should DoAction allow the code to be executed. (More specifically how many times should the instance allow the Do() function to be called before being locked.)  
   - **startLocked:** Should the code be locked by default?  
 
@@ -37,5 +37,20 @@ It is also possible to "unlock" or allow the execution of the function/code afte
 - Reset() Function Parameters  
   - **onlyIfLocked:** It will allow you to reset the corresponding instance of DoAction ONLY IF that instance is locked.  
 
-Need to check if the instance is locked or not? No problem! Simply use the GetIsLocked() function which returns a boolean.    
-```NewDoActionInstance.GetIsLocked();```   
+Need to check if the instance is locked or not? No problem! Simply use the GetIsLocked() function which returns a boolean.  
+```NewDoActionInstance.GetIsLocked();```    
+
+### Variables  
+```
+std::function<void()> Function;  
+int MaximumTimes;  
+bool StartLocked;  
+int NumberOfTimesExecuted;  
+```
+
+**Function:** The function/code that the DoAction instance will execute (unless locked).  
+**MaximumTimes:** Maximum amount of times that the function/code in the variable _Function_ can be executed before being locked.  
+**StartLocked:** Should the DoAction instance be locked by default? This also applies for if the instance is reset.  
+**NumberOfTimesExecuted:** Amount of times the function/code in the variable _Function_ has been executed.  
+
+# Thank You!
