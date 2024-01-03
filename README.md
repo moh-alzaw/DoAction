@@ -17,7 +17,7 @@ Add them to the source folder of your Unreal Engine project directory.
 Example directory: MyGame\Source\MyGame
 ### Step 2:
 Use ```#include "DoAction.h"``` for any C++ (.cpp) or Header (.h) files that will use DoAction.  
-
+  
 ## How to Use
 ### Functions
 To use DoAction, first begin by creating an instance of the class DoAction.  
@@ -39,7 +39,7 @@ It is also possible to "unlock" or allow the execution of the function/code afte
 
 Need to check if the instance is locked or not? No problem! Simply use the GetIsLocked() function which returns a boolean.  
 ```NewDoActionInstance.GetIsLocked();```    
-
+  
 ### Variables  
 ```
 std::function<void()> Function;  
