@@ -3,10 +3,6 @@ In C++, control flow such as executing code once or a certain amount of times ca
 For Unreal Engine C++ programmers, this can be especially useful as there is no built in "Do Once" or "Do N" C++ equivalent.  
 DoAction works by allowing code to be executed a specific amount of times before "locking" in which the code will no longer be executed unless demanded to "unlock".  
 
-## Table of contents
-* [Setting Up](#SettingUp)
-* [How to Use](#HowtoUse)
-
 ## Setting Up
 ### Step 1:
 Download the files in the respository and add them to your C++ or Unreal Engine project.  
